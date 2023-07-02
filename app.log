@@ -1,0 +1,59 @@
+2023-07-02T13:22:31.834-05:00  INFO 15152 --- [restartedMain] com.spring.demo.Application              : Starting Application using Java 18.0.2.1 with PID 15152 (C:\Users\sarit\OneDrive\Documentos\NetBeansProjects\MiPrimerSpring\target\classes started by sarit in C:\Users\sarit\OneDrive\Documentos\NetBeansProjects\MiPrimerSpring)
+2023-07-02T13:22:31.836-05:00  INFO 15152 --- [restartedMain] com.spring.demo.Application              : No active profile set, falling back to 1 default profile: "default"
+2023-07-02T13:22:31.891-05:00  INFO 15152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-02T13:22:31.891-05:00  INFO 15152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-02T13:22:32.917-05:00  INFO 15152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-02T13:22:32.927-05:00  INFO 15152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-02T13:22:32.927-05:00  INFO 15152 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-02T13:22:32.986-05:00  INFO 15152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-02T13:22:32.986-05:00  INFO 15152 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1092 ms
+2023-07-02T13:22:33.236-05:00  INFO 15152 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-02T13:22:33.446-05:00  INFO 15152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-02T13:22:33.478-05:00  INFO 15152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-02T13:22:33.488-05:00  INFO 15152 --- [restartedMain] com.spring.demo.Application              : Started Application in 2.107 seconds (process running for 2.518)
+2023-07-02T13:25:43.301-05:00  INFO 14908 --- [restartedMain] com.spring.demo.Application              : Starting Application using Java 18.0.2.1 with PID 14908 (C:\Users\sarit\OneDrive\Documentos\NetBeansProjects\MiPrimerSpring\target\classes started by sarit in C:\Users\sarit\OneDrive\Documentos\NetBeansProjects\MiPrimerSpring)
+2023-07-02T13:25:43.302-05:00  INFO 14908 --- [restartedMain] com.spring.demo.Application              : No active profile set, falling back to 1 default profile: "default"
+2023-07-02T13:25:43.347-05:00  INFO 14908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-02T13:25:43.347-05:00  INFO 14908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-02T13:25:45.004-05:00  INFO 14908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-02T13:25:45.020-05:00  INFO 14908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-02T13:25:45.025-05:00  INFO 14908 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-02T13:25:45.147-05:00  INFO 14908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-02T13:25:45.148-05:00  INFO 14908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1800 ms
+2023-07-02T13:25:45.556-05:00  INFO 14908 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-02T13:25:45.838-05:00  INFO 14908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-02T13:25:45.894-05:00  INFO 14908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-02T13:25:45.914-05:00  INFO 14908 --- [restartedMain] com.spring.demo.Application              : Started Application in 3.274 seconds (process running for 3.879)
+2023-07-02T13:25:45.921-05:00  INFO 14908 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-02T13:25:45.955-05:00 ERROR 14908 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:774) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:319) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.1.jar:3.1.1]
+	at com.spring.demo.Application.main(Application.java:31) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.1.jar:3.1.1]
+Caused by: java.lang.ClassCastException: class org.apache.commons.logging.LogAdapter$Slf4jLocationAwareLog cannot be cast to class org.apache.juli.logging.Log (org.apache.commons.logging.LogAdapter$Slf4jLocationAwareLog and org.apache.juli.logging.Log are in unnamed module of loader 'app')
+	at com.spring.demo.Application.run(Application.java:37) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-3.1.1.jar:3.1.1]
+	... 8 common frames omitted
+
+2023-07-02T13:27:42.145-05:00  INFO 6404 --- [restartedMain] com.spring.demo.Application              : Starting Application using Java 18.0.2.1 with PID 6404 (C:\Users\sarit\OneDrive\Documentos\NetBeansProjects\MiPrimerSpring\target\classes started by sarit in C:\Users\sarit\OneDrive\Documentos\NetBeansProjects\MiPrimerSpring)
+2023-07-02T13:27:42.147-05:00  INFO 6404 --- [restartedMain] com.spring.demo.Application              : No active profile set, falling back to 1 default profile: "default"
+2023-07-02T13:27:42.194-05:00  INFO 6404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-02T13:27:42.194-05:00  INFO 6404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-02T13:27:43.081-05:00  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-02T13:27:43.089-05:00  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-02T13:27:43.090-05:00  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-02T13:27:43.144-05:00  INFO 6404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-02T13:27:43.144-05:00  INFO 6404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
+2023-07-02T13:27:43.346-05:00  INFO 6404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-02T13:27:43.482-05:00  INFO 6404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-02T13:27:43.511-05:00  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-02T13:27:43.512-05:00  INFO 6404 --- [restartedMain] com.spring.demo.Application              : Started Application in 1.801 seconds (process running for 2.237)
